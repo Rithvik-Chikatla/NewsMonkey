@@ -70,12 +70,6 @@ const News = (props) => {
                 </div>
               })}
             </div>
-            <button style={{float: 'right', position: '-webkit-sticky', zIndex: '1'}} onClick={function() {
-          window.scrollTo({
-            top: '0',
-            behavior: 'smooth'
-          })
-        }}>Top</button>
           </div>
         </InfiniteScroll>
       
